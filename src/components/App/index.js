@@ -2,12 +2,15 @@ import Calculadora from '../Calculadora';
 import Footer from '../Footer';
 import './style.css';
 
-function App() {
+function App({icon, title, footer}) {
   return (
     <div className="App">
-      <Calculadora />
+      <Calculadora 
+        icon = {icon}
+        title = {title} 
+      />
       <Footer
-        info = '© 2022. Todos os direitos reservados. Github: LaisFSGomes'
+        info = {footer}
       />
     </div>
   );

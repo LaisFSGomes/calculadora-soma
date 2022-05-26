@@ -3,8 +3,7 @@ import InputNumber from '../InputNumber';
 import Resultado from '../Resultado';
 import './style.css';
 
-
-export default function Calculadora(){
+export default function Calculadora({icon, title}){
 
   const [input1, setInput1] = React.useState('');
   const [input2, setInput2] = React.useState('');
@@ -20,8 +19,8 @@ export default function Calculadora(){
   return(
     <div className="container">
       <section className="header">
-        <span className="emoji">👨‍🦳</span>
-        <h1> Sr. Sominha </h1>
+        <span className="emoji">{icon}</span>
+        <h1> {title} </h1>
         <span>
         Oi, tudo bem? Vamos fazer uma continha? 🤙
         </span>
