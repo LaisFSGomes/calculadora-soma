@@ -29,13 +29,13 @@ export default function Calculadora(){
 
       <section className="inputs">
         <InputNumber
-          label = 'Digite um número'
+          label = '1º número'
           id = 'n1'
           value = {input1}
           onInputChange = {handleGetInput1}
         /> 
         <InputNumber
-          label = 'Digite um número'
+          label = '2º número'
           id = 'n2'
           value = {input2}
           onInputChange = {handleGetInput2}

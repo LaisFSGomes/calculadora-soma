@@ -7,10 +7,8 @@ body {
 	color: #F0F0F0;
 	background-color: #F2CEAB;
 	height: 100%;
-	width: 100%;
 	padding: 16px;
 	box-sizing: border-box;
-  /* position: relative; */
 }
 
 code {
