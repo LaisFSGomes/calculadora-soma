@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+.inputContainer{
+  padding: 1%;
+  flex-direction: row;
+
+}
+
+
+.inputContainer .inputNumber {
+  width: 30%;
+  color: #595757;
+  font-weight: bold;
+  font-family: 'Manjari', sans-serif;
+}
