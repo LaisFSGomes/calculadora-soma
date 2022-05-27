@@ -2,6 +2,8 @@
 
 ## Sr. Sominha 👨‍🦳
 
+https://sr-sominha.vercel.app/
+
 Um simples projeto de uma interface que faz a soma de dois números inteiros. </br>
 </br>
 Tecnologias Utilizadas:
